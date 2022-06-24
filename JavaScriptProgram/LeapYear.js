@@ -1,14 +1,3 @@
-// console.log("Find Leap year.");
-// var year = 2012;
-// if (year%4 == 0)
-// {
-//     console.log(year + " is leap year");
-// }
-// else
-// {
-//     console.log(year + " is not a leap year");
-// }
-// program to check leap year
 function checkLeapYear(year) {
 
     //three conditions to find out the leap year
@@ -20,6 +9,7 @@ function checkLeapYear(year) {
 }
 
 // take input
-const year = 2020;
+var read = require("readline-sync")
+const year = read.question("Enter a year: ");
 
 checkLeapYear(year);
