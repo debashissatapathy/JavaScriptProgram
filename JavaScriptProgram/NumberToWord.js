@@ -1,5 +1,5 @@
-//const prompt = require("prompt-sync")();
-var number = 3 //prompt("Please enter a single digit number :");
+var read = require("readline-sync");
+var number = read.question("enter a number")
 if(number == 0)
 {
     console.log(number +"= Zero");  
