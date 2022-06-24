@@ -1,4 +1,5 @@
-var number = 1000000;
+var read = require("readline-sync");
+var number = read.question("Enter any Zero digit number: ");
 if(number == 1)
 {
     console.log(number +"= One");  
