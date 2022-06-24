@@ -1,6 +1,6 @@
 var read = require("readline-sync");
-var number = read.question("Enter any Zero digit number: ");
-if(number == 1)
+var number = Number(read.question("Enter any Zero digit number: "));
+/*if(number == 1)
 {
     console.log(number +"= One");  
 }
@@ -25,4 +25,35 @@ else if (number == 1000000){
 else
 {
     console.log(number +"= One Crore");
+}
+*/
+switch(number)
+{
+    case 1:
+        console.log(number +"= One");
+        break;
+    case 10:
+        console.log(number +"= Ten");
+        break;
+    case 100:
+        console.log(number +"= Hundred");
+        break;
+    case 1000:
+        console.log(number +"= Thousand");
+        break;
+    case 10000:
+        console.log(number +"= Ten thousand");
+        break;
+    case 100000:
+        console.log(number +"= One Lakh");
+        break;
+    case 1000000:
+        console.log(number +"= Ten Lakh");
+        break;
+    case 10000000:
+        console.log(number +"= One Crore");
+        break;    
+    default :
+        console.log("wrong Input");
+        break;
 }
