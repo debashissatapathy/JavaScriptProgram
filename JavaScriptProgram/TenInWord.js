@@ -1,11 +1,6 @@
 var read = require("readline-sync");
-<<<<<<< HEAD
-var number = read.question("Enter any Zero digit number: ");
-if(number == 1)
-=======
 var number = Number(read.question("Enter any Zero digit number: "));
 /*if(number == 1)
->>>>>>> TenInWord
 {
     console.log(number +"= One");  
 }
