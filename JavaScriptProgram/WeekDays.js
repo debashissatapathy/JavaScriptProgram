@@ -1,4 +1,5 @@
-var number = 5;
+var read = require("readline-sync")
+var number = read.question("Enter any number between 1 to 7: ");
 
 switch(number)
 {
@@ -26,4 +27,5 @@ switch(number)
     
     default :
         console.log("wrong Input");
+        break;
 }
